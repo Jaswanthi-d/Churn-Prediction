@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.preprocessing import LabelEncoder
 
 # Load your dataset
-data = pd.read_csv('Churn.csv')
+data = pd.read_csv('churn.csv')
 print(data.head())
 print(data.shape)
 
